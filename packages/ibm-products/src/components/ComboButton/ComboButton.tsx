@@ -96,6 +96,14 @@ const ComboButton = forwardRef(
         return null;
       });
 
+    const sumTest = (a, b) => {
+      const result = a + b;
+
+      return result;
+    };
+
+    sumTest(1, 4);
+
     return (
       <div
         {...rest}

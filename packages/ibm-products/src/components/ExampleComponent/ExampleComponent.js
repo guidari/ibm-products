@@ -78,6 +78,14 @@ export let ExampleComponent = React.forwardRef(
       }
     };
 
+    const sumTest = (a, b) => {
+      const result = a + b;
+
+      return result;
+    };
+
+    sumTest(1, 4);
+
     const theSecondaryIcon = useRef(
       secondaryIcon &&
         pkg.checkReportFeatureEnabled('ExampleComponent.secondaryIcon')

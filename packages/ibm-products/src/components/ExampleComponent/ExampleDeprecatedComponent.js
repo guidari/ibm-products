@@ -14,7 +14,7 @@ const componentName = 'ExampleDeprecatedComponent';
 // This is NOT a full component example. It is only intended to show the deprecation of a component.
 export let ExampleDeprecatedComponent = () => (
   <ExampleComponent
-    primaryButtonLabel="primary"
+    primaryButtonLabel="primaryTest"
     secondaryButtonLabel="secondary"
   />
 );
